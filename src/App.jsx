@@ -120,15 +120,13 @@ function App() {
         </div>
         <div className="flex justify-between  font-bold text-2xl p-4">
           <div>Сделано ходов: {moves}</div>
-          <div>Пар найдено: {pair} </div>
-        </div>
-        <div className="flex justify-center font-bold text-2xl ">
           <button
             className=" bg-orange-300 p-4 rounded-3xl shadow-md hover:bg-orange-200 hover:scale-105"
             onClick={() => location.reload()}
           >
             Начать заново
           </button>
+          <div>Пар найдено: {pair} </div>
         </div>
       </div>
     </>
