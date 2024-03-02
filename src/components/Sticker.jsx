@@ -22,14 +22,14 @@ const Sticker = ({
           isInactive ? "opacity-0" : ""
         } absolute rounded-md  w-[150px] h-[150px] border-2 border-solid backface-hidden border-gray-600   `}
       >
-        <img src={sticker.img} />
+        <img draggable="false" src={sticker.img} />
       </div>
       <div
         className={`${isFlipped ? " duration-700 rotate-y-180 " : " "} ${
           isInactive ? "opacity-0" : ""
         } cursor-pointer absolute rounded-md  w-[150px] h-[150px] border-2 border-solid backface-hidden border-gray-600 bg-violet-400 hover:bg-violet-300 hover:scale-105 `}
       >
-        <img src={backside} />
+        <img draggable="false" src={backside} />
       </div>
     </div>
   );

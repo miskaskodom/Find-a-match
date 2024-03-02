@@ -100,10 +100,10 @@ function App() {
   return (
     <>
       <div>
-        <div className="flex justify-center font-bold text-4xl p-4 mt-5">
+        <div className="flex justify-center font-bold text-4xl p-4">
           {text}
         </div>
-        <div className="flex flex-col justify-center mt-4 ">
+        <div className="flex flex-col justify-center mt-1 ">
           <div className="grid grid-rows-4 grid-cols-4 gap-3 items-stretch justify-center  p-8 bg-orange-300 rounded-[4px] w-[700px] h-[700px] shadow-xl">
             {arrayCards.map((sticker, index) => (
               <Sticker
