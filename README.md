@@ -1,16 +1,28 @@
-<h1>Приложение-игра “Найди пару”</h1>
-Найди-пару - игра, в которой пользолватель должен найти две одинаковых карточки. Карточки закрыты от пользователя одинаковыми изображениями, игра разделена на раунды. В каждом раунде пользователь выбирает 2 карточки на его препочтение. В случае успеха- две совпавшие карточки исчезают, иначе- они опять закрываются от пользователя. Игра продолжается, пока пользователь не найдёт все совпадения.
-<h1>Технологии</h1>
+<h1>Application-game “Find a pair”</h1>
+Find a pair is a game in which the user must find two identical cards. The cards are hidden from the user by identical images, the game is divided into rounds. In each round, the user chooses 2 cards of his preference. If successful, the two matching cards disappear, otherwise, they are again closed from the user. The game continues until the user finds all matches.
+<h1>Technologies used</h1>
 <io>
   <li>React</li>
   <li>Tailwind CSS</li>
 </io>
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Development tools</h1>
+<io>
+  <li>ESLint</li>
+  <li>Prettier</li>
+</io>
+<h1>Development</h1>
+<h2>Requirement</h2>
+To install and run the project, Vite v10.2.4 is required.
+<h2>Installing dependencies</h2>
+To install dependencies, run the command:
+<code>$npm install</code>
+<h2>Launching the Development server</h2>
+To start the development server, run the command:
+<code>npm run dev</code>
+<h2>Creating a build</h2>
+To run a production build, run the command:
+<code>npm run build</code>
+<h2>Deploy</h2>
+To deploy the application follow the guide at the link https://vitejs.dev/guide/static-deploy
+<h1>Link to the deployed application</h1>
+https://miskaskodom.github.io/Find-a-match/
