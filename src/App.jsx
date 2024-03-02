@@ -100,7 +100,7 @@ function App() {
   return (
     <>
       <div>
-        <div className="flex justify-center font-bold text-4xl p-4">
+        <div className="flex justify-center font-bold text-4xl p-2">
           {text}
         </div>
         <div className="flex flex-col justify-center mt-1 ">
